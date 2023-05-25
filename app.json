@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "cricketscore",
+    "slug": "cricketscore",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/profile.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.niahanth.cricketscore",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.niahanth.cricketscore",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/profile-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+     
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": ""
+  }
+}
